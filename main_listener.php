@@ -30,6 +30,7 @@ class main_listener implements EventSubscriberInterface
 
   protected $config;
   protected $language;
+  protected $user;
 
   /**
    * Constructor
