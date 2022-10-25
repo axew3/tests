@@ -2,7 +2,7 @@
 // Read: Why notifications are stored like this?
 // https://www.phpbb.com/community/viewtopic.php?t=2628741
 // to know more about this and how to optimize for your requirement and to improve the query performance
-// Post on topic if you know how could be improved
+// Reply on topic if you know how it could be improved
 
 $w3all_url_to_cms = 'https://mysite.com/phpBB/';
 
