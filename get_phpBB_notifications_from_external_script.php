@@ -35,6 +35,7 @@ $notifi_lang_types_ary = array(
     );
 
 // using Ezsql libray for db queries, so just change the query to fit your needs, or pure sql
+// note that you may want to avoid the JOIN into privmsgs. Refer to the linked phpBB topic for suggestions and how to
 
 $w3all_phpbb_connection->get_results("SELECT N.*,P.post_id,P.topic_id,P.forum_id,P.poster_id,P.post_time,P.post_subject,U.username,PM.msg_id,PM.author_id
         FROM ".$w3all_config["table_prefix"]."notifications AS N
