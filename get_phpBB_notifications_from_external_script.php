@@ -62,7 +62,7 @@ $w3all_phpbb_connection->get_results("SELECT N.*,P.post_id,P.topic_id,P.forum_id
          AND N.notification_read = 0
          AND U.user_id = 1
          AND P.post_id = (SELECT MIN(post_id) FROM ".$config["table_prefix"]."posts AS post_id)
-        OR N.user_id = ". $phpbb_u ."
+        OR N.user_id = ". $phpbb_uid ."
          AND N.notification_type_id = 11
          AND N.notification_read = 0
          AND P.post_id = (SELECT MIN(post_id) FROM ".$config["table_prefix"]."posts AS post_id)
