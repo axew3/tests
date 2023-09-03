@@ -167,10 +167,7 @@ alert('end isNextEllips '+isNextEllipses);
          }
 
        }
-        //alert('w3vv_pagesUrlAry= '+w3vv_pagesUrlAry);
-
-
-       } // END if( el.className == 'ellipsis' )
+      } // END if( el.className == 'ellipsis' )
 
 
         if(el.className == 'active'){
@@ -184,13 +181,9 @@ alert('end isNextEllips '+isNextEllipses);
      }
     } // END for
 
-    // check when pages are more than 10, the page array do not match
-
   w3vv_pagesUrlAry = w3vv_pagesUrlAry.filter(n => n); // remove empty keys
-  //w3vv_loadedPages_Ary = w3vv_loadedPages_Ary.filter(Boolean); // remove empty keys
   w3vv_PagesCount = w3vv_pagesUrlAry.length-1; //*
 
-  //alert('w3vv_loadedPages_Ary -> ' + w3vv_loadedPages_Ary);
   console.log('w3vv_pagesUrlAry -> '+w3vv_pagesUrlAry);
 
     // So we'll have
