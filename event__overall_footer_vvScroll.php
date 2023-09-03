@@ -23,20 +23,6 @@
     //alert('w3vv_actPP '+w3vv_actPP[1].innerHTML);
   }
 
- /*  if ( document.querySelector(".bar-top > .pagination > ul > li > span:nth-of-type(1)") != null )
-  {
-   alert('span:nth-of-type(1)');
-   let t = document.querySelector(".bar-top > .pagination > ul > li > span:nth-of-type(1)");
-   //.previousElementSibling
-    alert('t.nextElementSibling'+t.nextElementSibling);
-
-    var q = $( ".bar-top > .pagination > ul > li > span:nth-of-type(1)" ).prev();
-
-    console.log(q);
-    //alert(t.previousElementSibling);
-
-  }*/
-
     const W3VVFIRST_ONTOPIC = "{W3VVFIRST_ONTOPIC}";
     const W3VVLAST_ONTOPIC = "{W3VVLAST_ONTOPIC}";
     const W3VV_DIRTOPIC_SORT = "{W3VV_DIRTOPIC_SORT}";
@@ -68,16 +54,6 @@
     w3vv_pagesUrlAry[0] = 'w3';
     w3vv_loadedPages_Ary[0] = 'w3';
     w3vv_loadedPages_Aryxfl[0] = 'w3';
-
-    /*for (el of w3vv_allPages) {
-     if( el.className != 'dropdown-container' && el.className != 'arrow previous' && el.className != 'arrow next' ){
-        if(el.className == 'active'){
-         w3vv_pagesUrlAry[el.innerText] = el.baseURI;
-         w3vv_loadedPages_Ary[el.innerText] = el.innerText;
-        } else {  w3vv_pagesUrlAry[el.innerText] = el.firstChild.href; }
-     }
-    }*/
-
 
     var isPrevEllips = 0;
     var isPrevEllipses0 = 0;
