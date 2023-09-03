@@ -100,11 +100,6 @@
        oncepe++;
    }
 
-alert('end isPrevEllipses0 '+isPrevEllipses0);
-alert('end isNextEllipses0 '+isNextEllipses0);
-alert('end isPrevEllipses '+isPrevEllipses);
-alert('end isNextEllips '+isNextEllipses);
-
 
     var isPrevVal = 0;
     var isElli = 0;
