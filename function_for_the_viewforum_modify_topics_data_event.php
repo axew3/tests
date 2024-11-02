@@ -30,7 +30,7 @@ public static function viewforum_modify_topics_data($e)
           $rrr[$r]['topic_posts_approved'] = $rrr[$r]['topic_posts_approved'] - $c['prCount'];
          }
        }
-     }
+    }
 
     $e['rowset'] = $rrr;
   }
