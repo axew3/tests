@@ -25,12 +25,12 @@ public static function viewforum_modify_topics_data($e)
     foreach($e['rowset'] as $r => $rr){
       $rrr[$r] = $rr;
        foreach($res as $c){
-        if($c['tID'] == $rrr[$r]['topic_id'])
-        {
+         if($c['tID'] == $rrr[$r]['topic_id'])
+         {
           $rrr[$r]['topic_posts_approved'] = $rrr[$r]['topic_posts_approved'] - $c['prCount'];
-          }
-        }
+         }
        }
+     }
 
     $e['rowset'] = $rrr;
   }
