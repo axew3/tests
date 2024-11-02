@@ -1,4 +1,6 @@
-    public static function viewforum_modify_topics_data($e)
+<?php
+
+public static function viewforum_modify_topics_data($e)
   {
     global $db;
 
